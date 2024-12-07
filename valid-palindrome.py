@@ -8,5 +8,5 @@ for x in range(len(s)):
     if s[x].isalnum():
         r += s[x].lower()
         
-r_rev = r[::1]
+r_rev = r[::-1]
 print(r == r_rev)
